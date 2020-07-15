@@ -1,0 +1,39 @@
+package com.pravin.chatg;
+
+public class Contacts
+{
+    public  String name,Status,image;
+    public Contacts()
+    {
+
+    }
+
+    public Contacts(String name, String Status ,String image)
+    {
+        this.name = name;
+        this.Status=Status;
+        this.image=image;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getStatus() {
+        return Status;
+    }
+
+    public void setStatus(String Status) {
+        this.Status = Status;
+    }
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String name) {
+        this.image = image;
+    }
+}
